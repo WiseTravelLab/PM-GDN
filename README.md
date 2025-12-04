@@ -1,4 +1,4 @@
-# **PM-GDN (Tensorflow v1)** 
+# **PC-GDN (Tensorflow v1)** 
 
 <p align="left">
   <img src='https://img.shields.io/badge/python-3.8.18-blue'>
@@ -9,10 +9,10 @@
 </p> 
 
 ## **Overall description** 
-- This repository contains the codebase and datasets for the PM-GDN project, which is associated with our research paper titled "Prompt-based Multi-domain Graph Distillation Network for Smart Tourism Recommendation". The code provided here is exclusively for the purpose of peer review.
+- This repository contains the codebase and datasets for the PC-GDN, which is associated with our research paper titled "Prompt-based Cross-domain Graph Distillation Network for Smart Tourism Recommendation". The code provided here is exclusively for the purpose of double-blind peer review.
 ## **Code description** 
 ### **Implementation details**
-We implemented PM-GDN with TensorFlow and accelerated the model training using an Intel® Xeon® Silver 4210 CPU @ 2.20GHz CPU and NVIDIA Quadro RTX 6000 (24G) GPU. The operating system is Ubuntu 22.04, the system memory is 126G, and the coding platform is Pycharm.
+We implemented PC-GDN with TensorFlow and accelerated the model training using an Intel® Xeon® Silver 4210 CPU @ 2.20GHz CPU and NVIDIA Quadro RTX 6000 (24G) GPU. The operating system is Ubuntu 22.04, the system memory is 126G, and the coding platform is Pycharm.
 
 ### **Vesion of packages**
 The following versions of the programming language and libraries are used in this project:
