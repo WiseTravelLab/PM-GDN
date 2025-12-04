@@ -17,7 +17,7 @@ def _convert_sp_mat_to_sp_tensor(X):
     return tf.SparseTensor(indices, coo.data, coo.shape)
 
 
-class PM_GDN:
+class PC_GDN:
     def __init__(self, n_users, n_items_A, n_items_B, graph_matrix_A, graph_matrix_B, cross_domain_graph):
         self.embedding_size = 64
         self.num_heads = 4
@@ -331,3 +331,4 @@ class PM_GDN:
             logits = tf.matmul(hidden_state, W)
 
         return logits
+
